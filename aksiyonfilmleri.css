@@ -1,0 +1,33 @@
+body {
+  background-color: #fff;
+}
+
+.film {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  .film img {
+    width: 200px; /* Resim genişliği */
+    height: 200px; /* Resim yüksekliği */
+    object-fit: cover; /* Resimlerin belirtilen boyutta kesilerek gösterilmesi */
+     margin-bottom: 10px;
+  }
+  
+  .film h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .film p {
+    margin-bottom: 5px;
+  }
+  
+  .film p strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
